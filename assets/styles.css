@@ -1,0 +1,26 @@
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
+}
+
+input:invalid {
+    outline: none !important;
+}
+
+#wrapper {
+    padding: 10px;
+    margin-left: 320px;
+    margin-right: 320px;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    #navbar {
+        display: none;
+    }
+
+    #wrapper {
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
